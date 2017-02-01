@@ -58,6 +58,7 @@ _arguments -C \
     '--refresh[Refresh the state of resources of the type(s) specified.]:refresh policy:(dependencies)' \
     '--refresh-dependencies[Refresh the state of dependencies.]' \
     '--rerun-tasks[Ignore previously cached task results.]' \
+    '--scan[Creates a build scan. Gradle will fail the build if the build scan plugin has not been applied.]' \
     '(-S --full-stacktrace)'{-s,--stacktrace}'[Print out the stacktrace for all exceptions.]' \
     '(-s --stacktrace)'{-S,--full-stacktrace}'[Print out the full (very verbose) stacktrace for all exceptions.]' \
     '(-)--status[Shows status of running and recently stopped Gradle Daemons.]' \
